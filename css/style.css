@@ -35,6 +35,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    max-height: 800px;
 }
 .header__top-inner{
     display: flex;
