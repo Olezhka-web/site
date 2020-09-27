@@ -660,6 +660,18 @@ input.item__subscription-email::placeholder{
         margin-top: 19px;
     }
 }
+@media(max-width: 975px){
+    .header__blocks-items{
+        display: none;
+    }
+    .header__container{
+        display: flex;
+        justify-content: center;
+    }
+    .header__information{
+        text-align: center;
+    }
+}
 @media(max-width: 930px){
     .section__events-title{
         margin-right: 0px;
@@ -837,17 +849,25 @@ input.item__subscription-email::placeholder{
     }
     .header__container{
         align-items: center;
-        height: calc(100% - 60px);
+        height: calc(100% - 100px);
     }
 }
-@media(max-width: 1000px) and (max-height: 2000px){
+@media(max-width: 1020px) and (max-height: 2000px){
     .header__information{
         margin-top: 0px;
     }
 }
-@media(max-width: 1980px) and (max-height: 755px){
+@media(max-width: 1020px) and (max-height: 2000px){
     .header__blocks-items{
         margin-top: 0px;
+    }
+    .header__top-line{
+        margin-bottom: 240px;
+    }
+}
+@media(max-width: 975px) and (max-height: 2000px){
+    .header__top-line{
+        margin-bottom: 0px;
     }
 }
 @media(max-width: 1980px) and (max-height: 630px){
@@ -869,6 +889,11 @@ input.item__subscription-email::placeholder{
 @media(max-width: 1020px) and (max-height: 780px){
     .header__blocks-items{
         margin-top: -115px;
+    }
+}
+@media(max-width: 975px) and (max-height: 965px){
+    .header__top-line{
+        margin-bottom: 76px;
     }
 }
 @media(max-width: 1020px) and (max-height: 675px){
