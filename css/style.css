@@ -112,7 +112,7 @@ header{
 }
 .header__top-line{
     border: 1px solid #FFFFFF;
-    margin-bottom: 185px;
+    /* margin-bottom: 185px; */
 }
 .header__information{
     max-width: 535px;
@@ -592,9 +592,9 @@ input.item__subscription-email::placeholder{
         width: calc(100% - 40px);
         margin: 0 auto;
     }
-    .header__top-line{
+    /* .header__top-line{
         margin-bottom: 100px;
-    }
+    } */
     .header__blocks-items{
         margin-top: 208px;
     }
@@ -649,9 +649,9 @@ input.item__subscription-email::placeholder{
 }
 
 @media(max-width: 1020px){
-    .header__top-line{
+    /* .header__top-line{
         margin-bottom: 40px;
-    }
+    } */
     .header__container{
         display: block;
     }
@@ -844,9 +844,9 @@ input.item__subscription-email::placeholder{
     }
 }
 @media(max-width: 1980px) and (max-height: 2000px){
-    .header__top-line{
+    /* .header__top-line{
         margin-bottom: 40px;
-    }
+    } */
     .header__container{
         align-items: center;
         height: calc(100% - 100px);
@@ -861,19 +861,19 @@ input.item__subscription-email::placeholder{
     .header__blocks-items{
         margin-top: 0px;
     }
-    .header__top-line{
+     .header__top-line{
         margin-bottom: 240px;
-    }
+    } 
 }
 @media(max-width: 975px) and (max-height: 2000px){
-    .header__top-line{
+     .header__top-line{
         margin-bottom: 0px;
-    }
+    } 
 }
 @media(max-width: 1980px) and (max-height: 630px){
-    .header__top-line{
+    /* .header__top-line{
         margin-bottom: 10px !important;
-    }
+    } */
 }
 @media(max-width: 1980px) and (max-height: 550px){
     .header__information{
@@ -892,9 +892,9 @@ input.item__subscription-email::placeholder{
     }
 }
 @media(max-width: 975px) and (max-height: 965px){
-    .header__top-line{
+    /* .header__top-line{
         margin-bottom: 76px;
-    }
+    } */
 }
 @media(max-width: 1020px) and (max-height: 675px){
     .header__blocks-items{
@@ -916,14 +916,14 @@ input.item__subscription-email::placeholder{
     }
 }
 @media(max-width: 1020px) and (max-height: 440px){
-    .header__top-line{
+    /* .header__top-line{
         margin-bottom: 10px !important;
-    }
+    } */
 }
 @media(max-height: 770px){
-    .header__top-line{
+    /* .header__top-line{
         margin-bottom: 76px;
-    }
+    } */
 }
 
 @media(max-height: 672px){
