@@ -871,6 +871,11 @@ input.item__subscription-email::placeholder{
         margin-top: 0px;
     }
 }
+@media(max-width: 1020px) and (max-height: 440px){
+    .header__top-line{
+        margin-bottom: 10px !important;
+    }
+}
 @media(max-height: 770px){
     .header__top-line{
         margin-bottom: 76px;
