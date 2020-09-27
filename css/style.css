@@ -294,9 +294,6 @@ header{
 .section__more-events--arrow{
     padding-left: 15px;
 }
-.menu__events{
-
-}
 .menu__events-list{
     display: flex;
     flex-wrap: wrap;
@@ -515,20 +512,8 @@ li.footer__item-no-space{
 .footer__item-company{
     margin-right: 166px;
 }
-.footer__item-exhibitors{
-    
-} 
-.footer__item-press{
-
-}
 .footer__item-organizers{
     margin-right: 88px;
-}
-.footer__item-visitors{
-    
-}
-.footer__item-apps{
-
 }
 .footer__item-link--space{
     margin-right: 30px;
@@ -802,6 +787,10 @@ input.item__subscription-email::placeholder{
     .header__blocks{
         display: none;
     }
+    .header__container{
+        display: flex;
+        align-items: center;
+    }
 }
 @media(max-width: 495px){
     .news__ad-image{
@@ -844,14 +833,11 @@ input.item__subscription-email::placeholder{
 }
 @media(max-width: 1980px) and (max-height: 2000px){
     .header__top-line{
-        margin-bottom: 0px;
+        margin-bottom: 40px;
     }
     .header__container{
         align-items: center;
         height: calc(100% - 100px);
-    }
-    .header__information{
-     /*   margin-top: -260px; */
     }
 }
 @media(max-width: 1000px) and (max-height: 2000px){
@@ -901,6 +887,7 @@ input.item__subscription-email::placeholder{
 @media(max-width: 590px) and (max-height: 650px){
     .header__information{
         margin-top: 0px;
+        margin-left: 0px;
     }
 }
 @media(max-width: 1020px) and (max-height: 440px){
@@ -915,9 +902,6 @@ input.item__subscription-email::placeholder{
 }
 
 @media(max-height: 672px){
-    .header__top-line{
-        
-    }
     .header__blocks-items{
         margin-top: 0px;
     }
