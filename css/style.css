@@ -842,6 +842,33 @@ input.item__subscription-email::placeholder{
         display: flex !important;
     }
 }
+@media(max-width: 1980px) and (max-height: 2000px){
+    .header__top-line{
+        margin-bottom: 0px;
+    }
+    .header__container{
+        align-items: center;
+        height: calc(100% - 100px);
+    }
+    .header__information{
+        margin-top: -260px;
+    }
+}
+@media(max-width: 1980px) and (max-height: 755px){
+    .header__blocks-items{
+        margin-top: 0px;
+    }
+}
+@media(max-width: 1980px) and (max-height: 630px){
+    .header__top-line{
+        margin-bottom: 10px !important;
+    }
+}
+@media(max-width: 1980px) and (max-height: 550px){
+    .header__information{
+        margin-top: 0px;
+    }
+}
 
 @media(max-width: 1150px) and (max-height: 750px){
     .header__blocks-items{
